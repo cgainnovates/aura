@@ -4,7 +4,7 @@ client = ModelClient()
 try:
     reply = client.chat([{
         "role": "user",
-        "content": "Say hello in one sentence."
+        "content": "Say Hello in a sentence."
     }])
     print(reply)
 except AuraError as e:

@@ -13,6 +13,9 @@ def main():
             continue
         if q.lower() == 'exit':
             break
+        elif q == "/clear":
+            history = [{"role": "system", "content": "You are AURA, a helpful personal assistant"}]
+            continue
         else:
             history.append({"role": "user", "content": f"{q}"})
             try:
