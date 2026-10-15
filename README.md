@@ -1,2 +1,2 @@
 # AURA 
-Adaptive Unified Reasoning Assistant, a personal AI assistant. 
+Adaptive Unified Reasoning Assistant, a personal AI assistant.
